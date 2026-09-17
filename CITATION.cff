@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: >-
+  Si usa este repositorio, sus hallazgos o su metodologia, por favor citelo
+  usando los metadatos de este archivo. La entrada "preferred-citation" debe
+  actualizarse cuando el articulo derivado sea publicado formalmente.
+title: >-
+  Coherencia CIIU-Objeto en Contratacion Publica Colombiana: un indicador de
+  riesgo cuantitativo con anclaje normativo
+type: software
+authors:
+  - family-names: Perez Orozco
+    given-names: Wilmer Jose
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # completar tras crear ORCID (ver issue de M5)
+    country: CO
+repository-code: >-
+  https://github.com/wilmerjoseperezorozco-dev/coherencia-ciiu-contratacion-publica
+abstract: >-
+  Piloto de investigacion sobre un requisito legal colombiano que existe en la
+  normativa pero no se verifica de forma sistematica: que la actividad
+  economica (CIIU) registrada por un contratista en el RUES sea coherente con
+  el objeto del contrato estatal que se le adjudica. Propone un indicador de
+  incoherencia clasificatoria en dos niveles (reglas por seccion CIIU y
+  similitud semantica con embeddings NLP), validado contra revision humana,
+  sobre datos abiertos oficiales (RUES y SECOP II, datos.gov.co).
+keywords:
+  - contratacion-publica
+  - CIIU
+  - SECOP
+  - RUES
+  - datos-abiertos
+  - NLP
+  - similitud-semantica
+  - Colombia
+  - politica-publica
+license: MIT
+license-url: >-
+  https://github.com/wilmerjoseperezorozco-dev/coherencia-ciiu-contratacion-publica/blob/master/LICENSE
+version: 0.1.0-piloto
+date-released: "2026-09-07"
+# doi: "10.5281/zenodo.XXXXXXX"  # completar tras activar Zenodo y publicar el primer release (ver issue de M5)
+preferred-citation:
+  type: article
+  status: in-preparation
+  title: >-
+    Coherencia CIIU-Objeto en Contratacion Publica Colombiana: un indicador de
+    riesgo cuantitativo con anclaje normativo
+  authors:
+    - family-names: Perez Orozco
+      given-names: Wilmer Jose
+      country: CO
+  notes: >-
+    Articulo en preparacion. Actualizar esta seccion con revista, volumen,
+    paginas y DOI una vez publicado formalmente (ver milestone M5 y
+    docs/plan-publicacion-cientifica.md).

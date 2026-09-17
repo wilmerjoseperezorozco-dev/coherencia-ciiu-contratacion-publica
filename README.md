@@ -1,5 +1,14 @@
 # Coherencia CIIU-Objeto en Contratación Pública Colombiana
 
+[![DOI](https://img.shields.io/badge/DOI-pendiente_de_primer_release-lightgrey)](docs/plan-publicacion-cientifica.md)
+[![Estado](https://img.shields.io/badge/estado-piloto_exploratorio-blue)](docs/hallazgos-preliminares.md)
+[![Licencia código](https://img.shields.io/badge/código-MIT-green)](LICENSE)
+[![Licencia contenido](https://img.shields.io/badge/contenido-CC_BY_4.0-lightblue)](https://creativecommons.org/licenses/by/4.0/deed.es)
+
+> El badge de DOI se actualiza automáticamente en cuanto se active la integración con
+> Zenodo y se publique el primer release formal — ver
+> [`docs/plan-publicacion-cientifica.md`](docs/plan-publicacion-cientifica.md).
+
 Investigación en curso sobre un requisito legal que existe en la normativa colombiana pero
 que no se verifica de forma sistemática: que la actividad económica (CIIU) registrada por
 un contratista en el RUES sea coherente con el objeto del contrato estatal que se le
@@ -46,8 +55,22 @@ conducta de una empresa o funcionario en particular.
   uno por uno, y lo que sí y no se puede concluir con esta muestra.
 - [`docs/propuesta-mejora-colombia.md`](docs/propuesta-mejora-colombia.md) — qué se podría
   cambiar en el proceso de contratación pública para cerrar esta brecha de verificación.
+- [`docs/hoja-de-ruta.md`](docs/hoja-de-ruta.md) — próximos pasos técnicos y frentes
+  institucionales (semillero, convocatorias).
+- [`docs/plan-publicacion-cientifica.md`](docs/plan-publicacion-cientifica.md) — cómo se
+  formaliza este trabajo como producto citable: infraestructura de citación (Zenodo/DOI),
+  estrategia de preprint y mapa priorizado de revistas objetivo.
 - [`analisis/`](analisis/) — la consulta SQL reproducible que generó el piloto, sobre datos
   abiertos oficiales (RUES `c82u-588k` y SECOP II `jbjy-vk9h` de datos.gov.co).
+
+## Roadmap
+
+El trabajo pendiente está organizado en
+[milestones](https://github.com/wilmerjoseperezorozco-dev/coherencia-ciiu-contratacion-publica/milestones)
+e [issues](https://github.com/wilmerjoseperezorozco-dev/coherencia-ciiu-contratacion-publica/issues)
+de este repositorio, en el orden en que deben resolverse: cruce dirigido por NIT a escala →
+Nivel 2 de la metodología (similitud semántica NLP) → validación humana con
+precisión/recall → redacción de resultados → formalización (citación, Zenodo, revista).
 
 ## Fuente de datos
 
